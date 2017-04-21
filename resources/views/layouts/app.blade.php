@@ -81,19 +81,19 @@
 
 
                     @if(Auth::guest())
-                        <li class="dropdown" style="background-color: black;">
-                            <a href="#" class="dropdown-toggle" style="color: white" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" >
                                 View <span class="caret"></span>
                             </a>
 
                             <ul class="dropdown-menu" role="menu" >
                                 <li>
-                                    <a href="{{ route('yearlyPlanner.display') }}" style="background-color: #b1b7ba;">
+                                    <a href="{{ route('yearlyPlanner.display') }}" >
                                         Yearly Planner
                                     </a>
 
 
-                                    <a href="{{ route('announcements.display') }}" style="background-color: #b1b7ba;">
+                                    <a href="{{ route('announcements.display') }}>
                                         Announcements
                                     </a>
 
